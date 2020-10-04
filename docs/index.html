@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Dinprof - Distribuidora de insumos profesionales para fisioterapia, estética y eléctrocirugia</title>
+  <style>
+    body {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      margin:0;
+      padding:0;
+      font-family: 'Roboto', sans-serif;
+    }
+    #intro {
+      background-color: #68aee9;
+      height: 100vh;
+      display: flex;
+      margin:0;
+      padding:0;
+    }
+    .logo {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .logo img {
+      width: 50%;
+      margin: 0 auto;
+    }
+    .logo h1 { display: none }
+    .logo h2 {
+      color: #fff;
+      text-align:center;
+    }
+    #about {
+      font-size: 2.5em;
+      font-weight: bold;
+      text-align: center;
+      padding: 100px 40px;
+    }
+    #contact {
+      font-size: 1.5em;
+      background-color: #333;
+      color: #ddd;
+      display: flex;
+      flex-direction: column;
+    }
+    #contact > div {
+      padding: 80px 40px 40px;
+    }
+    #contact h2 {
+      margin:0;
+      padding:0;
+    }
+    #contact a {
+      color: #ddd;
+      text-decoration:dotted;
+    }
+    #contact ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 0 0 80px;
+    }
+    #contact ul li {
+      list-style: none;
+    }
+    .shadow { color: #999; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .logo img { width: 60%; }
+    }
+    @media (max-width: 767px) {
+      .logo img { width: 85%; }
+      #contact { font-size: 1em; }
+      #about   { font-size: 2em; }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link href="icons/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <div id="intro">
+    <div class="logo">
+      <img src="img/dinprof-logo.png" alt="Dinprof: distribuidora de insumos profesionales para fisioterapia, estética y eléctrocirugia">
+      <h1>Dinprof<h1>
+      <h2>Distribuidora de insumos para profesionales<h2>
+    </div>
+  </div>
+  <div id="about">
+    <p>Distribuimos equipos e insumos médicos para profesionales. Somos especialistas en fisioterapia, estética y eléctrocirugia. Enviamos a todo el país.</p>
+  </div>
+  <div id="contact">
+    <div>
+      <h2>Contacto</h2>
+      <p>Llámanos, escríbenos o visítanos y nuestros expertos te asesorarán de Lunes a Viernes de 10 a 18 horas.</p>
+    </div>
+    <ul>
+      <li><a href="mailto:ventas@dinprof.com"><i class="fas fa-envelope"></i> ventas@dinprof.com</a></li>
+      <li><a href="tel:+541148332853"><i class="fas fa-phone-alt"></i> <span class="shadow">+54 11</span> 4833-2853</a></li>
+      <li><a href="https://www.google.com/maps/place/DINPROF+%7C+Distribuidora+de+Insumos+Profesionales/@-34.5869718,-58.4292628,15z/data=!4m5!3m4!1s0x0:0x69a9e6bcf4f4349c!8m2!3d-34.5869718!4d-58.4292628"><i class="fas fa-map-marked-alt"></i> Thames 1791</a></li>
+    </ul>
+  </div>
+</body>
+</html>
