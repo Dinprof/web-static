@@ -2,7 +2,17 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <title>Dinprof - Distribuidora de insumos profesionales para fisioterapia, estética y eléctrocirugia</title>
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta property="og:site_name" content="Dinprof"/>
+  <meta property="og:title" content="Dinprof: distribuidora de insumos profesionales"/>
+  <meta property="og:url" content="https://ciclosferia.com"/>
+  <meta property="og:description" content="Distribuimos equipos e insumos médicos para profesionales. Somos especialistas en fisioterapia, estética y eléctrocirugia."/>
+  <meta property="og:image" content="https://dinprof.com/img/share.jpg"/>
+  <meta property="og:locale" content="es_ES"/>
+  <meta property="fb:app_id" content="256872671643795"/>
   <style>
     body {
       background-color: #fff;
@@ -49,10 +59,7 @@
     }
     #contact > div {
       padding: 80px 40px 40px;
-    }
-    #contact h2 {
-      margin:0;
-      padding:0;
+      text-align: center;
     }
     #contact a {
       color: #ddd;
@@ -72,9 +79,9 @@
     }
     @media (max-width: 767px) {
       .logo img { width: 85%; }
-      #contact { font-size: 1em; }
       #about   { font-size: 2em; }
-    }
+      #contact ul { flex-direction: column; align-items: center; }
+      #contact ul li { width: 50%; padding: 20px 0; }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
   <link href="icons/css/all.css" rel="stylesheet">
@@ -92,14 +99,43 @@
   </div>
   <div id="contact">
     <div>
-      <h2>Contacto</h2>
-      <p>Llámanos, escríbenos o visítanos y nuestros expertos te asesorarán de Lunes a Viernes de 10 a 18 horas.</p>
+      <p>Contactanos y nuestros expertos te asesorarán de Lunes a Viernes de 10 a 18 horas.</p>
     </div>
     <ul>
       <li><a href="mailto:ventas@dinprof.com"><i class="fas fa-envelope"></i> ventas@dinprof.com</a></li>
       <li><a href="tel:+541148332853"><i class="fas fa-phone-alt"></i> <span class="shadow">+54 11</span> 4833-2853</a></li>
-      <li><a href="https://www.google.com/maps/place/DINPROF+%7C+Distribuidora+de+Insumos+Profesionales/@-34.5869718,-58.4292628,15z/data=!4m5!3m4!1s0x0:0x69a9e6bcf4f4349c!8m2!3d-34.5869718!4d-58.4292628"><i class="fas fa-map-marked-alt"></i> Thames 1791</a></li>
+      <li><a href="https://www.google.com/maps/place/DINPROF+%7C+Distribuidora+de+Insumos+Profesionales/@-34.5869718,-58.4292628,15z/data=!4m5!3m4!1s0x0:0x69a9e6bcf4f4349c!8m2!3d-34.5869718!4d-58.4292628"><i class="fas fa-map-marked-alt"></i> Thames 1791 (CABA)</a></li>
     </ul>
   </div>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Dinprof",
+    "legalName" : "Dinprof SRL",
+    "url": "http://www.dinprof.com",
+    "logo": "https://www.dinprof.com/img/share.jpg",
+    "foundingDate": "1998",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Thames 1791",
+      "addressLocality": "CABA",
+      "addressRegion": "Buenos Aires",
+      "postalCode": "C1414DDI",
+      "addressCountry": "Argentina"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "telephone": "+5411 4833-2853",
+      "email": "ventas@dinprof.com"
+    },
+    "sameAs": [
+      "https://www.instagram.com/dinprof",
+      "https://www.facebook.com/dinprofinsumos",
+      "https://twitter.com/dinprof_"
+    ]
+  }
+  </script>
 </body>
 </html>
